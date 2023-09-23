@@ -1,6 +1,7 @@
 package first.first_spring.repository;
 
 import first.first_spring.domain.Member;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.Optional;
