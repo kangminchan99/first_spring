@@ -19,8 +19,7 @@ import static org.assertj.core.api.Assertions.fail;
 public class MemberServiceIntegrationTest {
 
     @Autowired MemberService memberService;
-    @Autowired
-    MemberRepository memberRepository;
+    @Autowired MemberRepository memberRepository;
 
 
 

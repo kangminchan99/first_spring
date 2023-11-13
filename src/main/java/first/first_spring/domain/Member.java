@@ -9,7 +9,8 @@ import org.springframework.data.annotation.Id;
 @Entity
 public class Member {
 
-    @Id @GeneratedValue(strategy = GenerationType.AUTO.IDENTITY)
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
 
